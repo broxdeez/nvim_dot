@@ -6,7 +6,7 @@ settings["use_ssh"] = true
 
 -- Set it to false if you don't use copilot
 ---@type boolean
-settings["use_copilot"] = true
+settings["use_copilot"] = false
 
 -- Set it to false if there are no need to format on save.
 ---@type boolean
@@ -146,6 +146,7 @@ settings["treesitter_deps"] = {
 	"go",
 	"gomod",
 	"html",
+	"toml",
 	"javascript",
 	"json",
 	"latex",
