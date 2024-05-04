@@ -13,6 +13,7 @@ ui["folke/noice.nvim"] = {
 		--   If not available, we use `mini` as the fallback
 		"rcarriga/nvim-notify",
 	},
+	enabled = false,
 }
 
 return ui
